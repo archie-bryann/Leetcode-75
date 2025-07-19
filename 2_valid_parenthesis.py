@@ -17,7 +17,7 @@ class Solution(object):
                 if not stack:
                     return False
                 last = stack.pop()
-                if(last != mapping[c]):
+                if last != mapping[c]:
                     return False
             else:
                 stack.append(c)

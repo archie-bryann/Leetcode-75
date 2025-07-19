@@ -21,3 +21,5 @@ class Solution(object):
         root.right = left_inverted
 
         return root
+
+
